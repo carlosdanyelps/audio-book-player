@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+body {
+  font-family: "Comfortaa", sans-serif;
+  background-image: linear-gradient(#1c0932, #3e336b);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #d6d6ea;
+  
+}
+
+.container-aplicativo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div img {
+  border-radius: 3%;
+  /* box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.345); */
+}
+
+button {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.music-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#informacoes-faixa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #bcb7ce;
+  text-shadow: 2px 1px 8px rgba(0, 0, 0, 0.395);
+}
+
+
+#anterior, #proximo {
+  font-size: 2.5rem;
+}
+
+#proximo:hover {
+  color: rgb(255, 255, 255);
+}
+
+#anterior:hover {
+  color: rgb(255, 255, 255);
+}
+
+#play-pause {
+  font-size: 2.4rem;
+}
+
+#play-pause:hover {
+  font-size: 2.6rem;
+}
+
+#container-botoes {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
